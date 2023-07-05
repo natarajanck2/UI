@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary app using HTML, CSS and JS</title>
+
+    <link rel="shortcut-icon" href="#" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./main.js"></script>
+  </head>
+
+  <body>
+    <div class="dict-app">
+      <div class="search">
+        <input type="text" id="search" placeholder="Search a word..." />
+        <div class="search">Search</div>
+      </div>
+
+      <div class="audio">
+        <div class="pronounce">
+          <!-- pronounce text -->
+        </div>
+        <audio id="prounceAudio"></audio>
+
+        <div id="playAudio">Play audio</div>
+      </div>
+
+      <div class="meaning">
+        <!-- meaning of the word -->
+      </div>
+
+      <div class="example">
+        <!-- some example -->
+      </div>
+
+      <div class="error-msg">
+        <!-- error message -->
+      </div>
+    </div>
+  </body>
+</html>
